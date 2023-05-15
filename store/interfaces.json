@@ -1,0 +1,7 @@
+{
+    "iframe-nr":{
+        "component":"Iframe",
+        "composition":"children",
+        "render":"client"
+    }
+}

@@ -1,0 +1,17 @@
+.widget__element a{
+    background-color: #ff7100
+}
+
+h2 .hKjkWZ{
+    display: block;
+    width: 100px;
+    height: 40px;
+    content: "HOLA";
+    color: #000000;
+}
+
+@media screen and (min-width:1026px) {
+    .widget__element {
+        height: 490px !important;
+    }
+}
