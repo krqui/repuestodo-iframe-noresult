@@ -3,15 +3,14 @@ import { useCssHandles} from "vtex.css-handles"
 import { Widget } from '@typeform/embed-react'
 import "./styles.css"
 
-
-
 const Iframe = () => {
   const CSS_HANDLES = [
     "widget",
     "widget__element"
   ]
   const handles = useCssHandles(CSS_HANDLES)
-  return (<div className={handles.widget}>
+  return (
+    <div className={handles.widget}>
         <Widget 
           className={handles.widget__element} 
           id="DtUrdO0x" 
